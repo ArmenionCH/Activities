@@ -1,0 +1,45 @@
+#top-row{
+
+    display: flex;
+    
+    flex-direction: row;
+    
+    height: 80vh;
+
+}
+
+#left{
+
+    flex: 2;
+    display: flex;
+}
+
+#phrase{
+
+    flex: 1;
+}
+
+#image{
+
+    flex: 2;
+    text-align: center;
+}
+
+
+#right{
+
+    flex: 1;
+    text-align: center;
+}
+
+#form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer{
+
+    text-align: center;
+}
